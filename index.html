@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Component</title>
+	<script type="text/javascript"
+	src="tooltip.js"></script>
+	<script type="text/javascript"
+	src="confirm-link.js"></script>
+	<style>
+		.highlight {
+			background-color: light-gray;
+		}
+	</style>
+
+</head>
+<body>
+
+	<my-tooltip text="second tooltip">Web Component</my-tooltip>
+	<my-tooltip >
+		<span class="highlight">
+			Awesome Component
+		</my-tooltip>
+
+	<a is="my-confirm-link" href="http://www.google.com">Google</a>
+
+</body>
+</html>

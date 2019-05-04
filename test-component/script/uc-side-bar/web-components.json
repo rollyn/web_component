@@ -1,0 +1,15 @@
+{
+  "tags": [
+    {
+      "label": "uc-side-drawer",
+      "description": "",
+      "attributes": [
+        {
+          "label": "title",
+          "description": "",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

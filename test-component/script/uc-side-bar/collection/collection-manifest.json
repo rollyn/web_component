@@ -1,0 +1,32 @@
+{
+  "components": [
+    {
+      "tag": "uc-side-drawer",
+      "dependencies": [],
+      "componentClass": "SideDrawer",
+      "componentPath": "components/side-drawer/side-drawer.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/side-drawer/side-drawer.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "title",
+          "type": "String",
+          "attr": "title"
+        }
+      ],
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.16.2",
+    "typescriptVersion": "3.2.2"
+  },
+  "bundles": []
+}
